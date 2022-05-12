@@ -12,7 +12,7 @@ My NotePad<br>
 
 ## WEB version 🌐
 
-Le site est en live ici 👉 [MyNotePad](https://www.guillaumereygner.fr/)
+Le site est en live ici 👉 [MyNotePad](https://guillaume-rygn.github.io/MyNotePad/)
 
 ## Technologies utilisées ⚙️
 
