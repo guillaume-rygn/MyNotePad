@@ -10,6 +10,10 @@ My NotePad<br>
 
 ![MyNotePad](ressources/images/app.png)
 
+## WEB version 🌐
+
+Le site est en live ici 👉 [NotePad](https://guillaume-rygn.github.io/MyNotePad/)
+
 ## Technologies utilisées ⚙️
 
 <p align="left">Pour ce programme les technologies suivantes ont été utilisé : <br>
