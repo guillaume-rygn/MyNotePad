@@ -3,9 +3,9 @@
   <br>
   <a href="https://www.guillaumereygner.fr/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Icon-notepad.svg/1200px-Icon-notepad.svg.png" alt="MyNotePad" width="200"></a>
   <br>
-My NotePad<br>
+MyNotePad<br>
 </h1>
-<h4 align="center">My NotePad est une application de prise de note avec la possibilité d'écrire directement en markdown développé sous ReactJS et utilise le localStorage pour la conservation des notes.</h4>
+<h4 align="center">MyNotePad est une application de prise de note avec la possibilité d'écrire directement en markdown développé sous ReactJS et utilise le localStorage pour la conservation des notes.</h4>
 <br>
 
 ![MyNotePad](ressources/images/app.png)
