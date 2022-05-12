@@ -8,7 +8,7 @@ MyNotePad<br>
 <h4 align="center">MyNotePad est une application de prise de note avec la possibilité d'écrire directement en markdown développé sous ReactJS et utilise le localStorage pour la conservation des notes.</h4>
 <br>
 
-![MyNotePad](ressources/images/app.png)
+<kbd>![MyNotePad](ressources/images/app.png)</kbd>
 
 ## WEB version 🌐
 
