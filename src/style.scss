@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* GLOBAL STYLES */
+
+body,
+.App {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+button {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  color: rgb(0, 99, 148);
+}
+
+
+.App {
+  display: flex;
+}
+
+/* SIDEBAR STYLES */
+
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.app-sidebar-header {
+  padding: 25px;
+}
+.app-sidebar-header h1 {
+  margin: 0;
+}
+
+.app-sidebar-notes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+.app-sidebar-note {
+  padding: 25px;
+  cursor: pointer;
+}
+.sidebar-note-title {
+  display: flex;
+  justify-content: space-between;
+}
+.app-sidebar-note button {
+  color: crimson;
+}
+
+.app-sidebar-note button:hover {
+  color: rgb(163, 10, 40);
+}
+
+.app-sidebar-note p {
+  margin: 10px 0;
+}
+.app-sidebar-note small {
+  display: block;
+  color: #999;
+}
+
+.app-sidebar-note:hover {
+  background: #ddd;
+}
+.app-sidebar-note.active,
+.app-sidebar-note.active small {
+  background: rgb(182, 219, 238);
+  color: rgb(37, 37, 37);
+    &.app-sidebar-note.active{
+       border-right: 5px solid rgb(0, 99, 148);
+    }
+}
+
+/* NOTE EDITOR/PREVIEW (MAIN) STYLES */
+
+.app-main {
+  width: 70%;
+  height: 100vh;
+}
+.app-main-note-edit,
+.app-main-note-preview {
+  height: 50vh;
+  transition: 150ms linear;
+}
+
+.no-active-note {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+}
+
+/* Editing */
+.app-main-note-edit {
+  padding: 10px 25px 25px 25px;
+}
+
+.app-main-note-edit input,
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 100%;
+  height: calc(50vh - 130px);
+  padding: 10px;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+.app-main-note-edit input {
+  height: 50px;
+  font-size: 2rem;
+}
+
+/* Preview */
+.app-main-note-preview {
+  border-top: 1px solid #ddd;
+  overflow-y: scroll;
+  padding : 0 15px;
+  background: rgba(0, 0, 0, 0.02);
+  position: relative;
+  margin: 0;
+}
+
+.preview-title {
+  padding: 25px 25px 0 25px;
+  margin: 0 0 15px 0;
+  color: rgb(0, 99, 148);
+  border-bottom: 1px solid rgb(180, 197, 255);
+}
+
+.markdown-preview {
+  padding: 0 25px 25px 25px;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.app-content{
+  padding:0 20px;
+  height: 100%;
+}
+
+
+.inputsearch{
+  border: none;
+  padding: 0 0 0 8px;
+  vertical-align: center;
+  background-color: transparent;
+  width: 80%;
+}
+
+.inputsearch:focus{
+  outline: none;
+}
+
+.searchbar{
+  text-align: center;
+  max-width: 300px;
+  padding: 5px 10px 5px 15px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  margin: 0 10px 10px 10px;
+  color: rgb(90, 90, 90);
+}
+
+.loop{
+  color: rgb(90, 90, 90);
+}
+
+.add{
+  color: rgb(255, 255, 255);
+  margin: 0 15px 0 0;
+}
+
+.addnote{
+  text-align: left;
+  width: 70%;
+  padding:8px 20px;
+  background-color: rgb(0, 99, 148);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  margin: 0 10px 20px 10px;
+}
+
+.addnote:hover {
+  background-color: rgb(0, 43, 65);
+}
+
+.arrow{
+  background-color: transparent;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.extend{
+  padding: 10px 15px;
+  background-color: white;
+  margin: 0;
+  transition: 150ms linear;
+}
+
+.reduce{
+  transform: translateY(50vh);
+}
+
+.growth{
+     height: 100vh;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
